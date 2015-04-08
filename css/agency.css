@@ -751,7 +751,7 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft JhengHei","微軟正黑體",sans-serif;
+
     line-height: 40px;
 }
 
@@ -883,4 +883,17 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+#title-button {
+  border-color: #515151;
+  color: #fff;
+  background-color: #181818;
+}
+
+
+#title-button:hover{
+  border-color: #5d5d5d;
+  color: #fff;
+  background-color: #252525;
 }
