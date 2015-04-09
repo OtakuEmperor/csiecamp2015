@@ -887,13 +887,14 @@ body {
 
 #title-button {
   border-color: #515151;
-  color: #fff;
+  color: #050000;
   background-color: #DDDDDD;
+  opacity: 0.8;
 }
 
 
 #title-button:hover{
   border-color: #5d5d5d;
-  color: #fff;
-  background-color: #252525;
+  color: #FFFFFF;
+  background-color: #222121;
 }
