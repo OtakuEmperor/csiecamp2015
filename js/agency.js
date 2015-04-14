@@ -24,3 +24,13 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('#people').submit(function() {
+    // get all the inputs into an array.
+    var $inputs = $('#people :input');
+
+    // not sure if you wanted this, but I thought I'd add it.
+    // get an associative array of just the values.
+    console.log(inputs);
+
+});

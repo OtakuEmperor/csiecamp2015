@@ -72,7 +72,7 @@
                         <a class="page-scroll" href="#team">聯繫我們</a>
                     </li>
                     <li>
-                        <a href="https://docs.google.com/forms/d/1ts5otPv7cZH24HILZ1I49Q3_-QUGM-bdIcElKQkpHw4/viewform?c=0&w=1">我要報名</a>
+                      <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">我要報名</a>
                     </li>
                 </ul>
             </div>
@@ -85,10 +85,14 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in" >ONE P資</div>
-                <div class="intro-lead-in" >2015/7/1~7/5</div>
+                <!-- <div class="intro-lead-in" >ONE P資</div> -->
+                <!-- <div class="intro-lead-in" >2015/7/1~7/5</div> -->
+                <div>
+                  <img src="img/header-bg_11.png" alt="" />
+                  <!-- <img src="img/header-bg_8.png" alt="" /> -->
+                </div>
                 <div class="intro-heading">2015 輔大資工領才培訓營</div>
-                <a href="https://docs.google.com/forms/d/1ts5otPv7cZH24HILZ1I49Q3_-QUGM-bdIcElKQkpHw4/viewform?c=0&w=1" class="page-scroll btn btn-xl" id="title-button">我要報名</a>
+                <a href="#portfolioModal6" class="page-scroll btn btn-xl portfolio-link" data-toggle="modal" id="title-button">我要報名</a>
             </div>
         </div>
     </header>
@@ -779,12 +783,20 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>選擇人數</h2>
+                            <p class="item-intro text-muted">多少人一組</p>
+                            <form role="form" id="people">
+                              <div class="radio">
+                                <label><input type="radio" name="optradio">一人</label>
+                              </div>
+                              <div class="radio">
+                                <label><input type="radio" name="optradio">兩人</label>
+                              </div>
+                              <div class="radio">
+                                <label><input type="radio" name="optradio">三人</label>
+                              </div>
+                              <input type="submit" name="name">
+                            </form>
                         </div>
                     </div>
                 </div>
