@@ -25,12 +25,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('#people').submit(function() {
-    // get all the inputs into an array.
-    var $inputs = $('#people :input');
+function submitForm() {
+  console.log($('input[name="genderS"]:checked').val());
+  $a = $('input[name="genderS"]:checked').val();
+  if ($a == "0") {
+    window.location.href = 'https://docs.google.com/forms/d/1ts5otPv7cZH24HILZ1I49Q3_-QUGM-bdIcElKQkpHw4/viewform';
+  }
+  if ($a == "1") {
+    window.location.href = 'https://docs.google.com/forms/d/1AcB9vlb5Nl7UwLfEUVmU7MKWTchij_sq71zrJ6AV_no/viewform';
+  }
+  if ($a == "2") {
+    window.location.href = 'https://docs.google.com/forms/d/1QuCC-H5BqLqzPZ93pNwT1GY4AIzG2ST0moXGThjwlIE/viewform';
+  }
 
-    // not sure if you wanted this, but I thought I'd add it.
-    // get an associative array of just the values.
-    console.log(inputs);
-
-});
+}
